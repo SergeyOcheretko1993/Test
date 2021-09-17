@@ -1,0 +1,5 @@
+# Project exclude paths
+/target/
+.idea
+Test1.iml
+mavenTest.iml

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LoginSuite" parallel="tests" thread-count="1">
+    <test name="Login Tests for Chrome" >
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="correctEmailAddress" value="sergej.ocheretko1@gmail.com"> </parameter>
+        <parameter name="correctPassword" value="Qwerty12345"> </parameter>
+        <parameter name="inCorrectEmailAddress" value="feuhfuefw@gmail.com"> </parameter>
+        <parameter name="inCorrectPassword" value="30423420"> </parameter>
+        <classes>
+            <class name="tests.LoginPageTest" >
+            </class>
+        </classes>
+    </test>
+    <test name="Login Tests for Firefox" >
+        <parameter name="browser" value="firefox"> </parameter>
+        <parameter name="correctEmailAddress" value="sergej.ocheretko1@gmail.com"> </parameter>
+        <parameter name="correctPassword" value="Qwerty12345"> </parameter>
+        <parameter name="inCorrectEmailAddress" value="feuhfuefw@gmail.com"> </parameter>
+        <parameter name="inCorrectPassword" value="30423420"> </parameter>
+        <classes>
+            <class name="tests.LoginPageTest" >
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
