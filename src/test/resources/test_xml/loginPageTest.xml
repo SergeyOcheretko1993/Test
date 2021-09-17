@@ -7,6 +7,7 @@
         <parameter name="correctEmailAddress" value="sergej.ocheretko1@gmail.com"> </parameter>
         <parameter name="correctPassword" value="Qwerty12345"> </parameter>
         <parameter name="inCorrectEmailAddress" value="feuhfuefw@gmail.com"> </parameter>
+
         <parameter name="inCorrectPassword" value="30423420"> </parameter>
         <classes>
             <class name="tests.LoginPageTest" >
